@@ -102,20 +102,6 @@ public class PlatGroupMetalsRecipes {
 
         // RHODIUM / RUTHENIUM
 
-        CHEMICAL_RECIPES.recipeBuilder().duration(450).EUt(VA[EV])
-                .input(dust, InertMetalMixture, 6)
-                .fluidInputs(SulfuricAcid.getFluid(1500))
-                .fluidOutputs(RhodiumSulfate.getFluid(500))
-                .output(dust, RutheniumTetroxide, 5)
-                .fluidOutputs(Hydrogen.getFluid(3000))
-                .buildAndRegister();
-
-        ELECTROLYZER_RECIPES.recipeBuilder().duration(100).EUt(VA[MV])
-                .fluidInputs(RhodiumSulfate.getFluid(1000))
-                .output(dust, Rhodium, 2)
-                .fluidOutputs(SulfurTrioxide.getFluid(3000))
-                .fluidOutputs(Oxygen.getFluid(3000))
-                .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder().duration(200).EUt(VA[MV])
                 .input(dust, RutheniumTetroxide, 5)
