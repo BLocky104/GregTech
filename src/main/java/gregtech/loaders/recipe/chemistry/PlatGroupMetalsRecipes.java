@@ -134,12 +134,6 @@ public class PlatGroupMetalsRecipes {
                 .fluidOutputs(Water.getFluid(4000))
                 .buildAndRegister();
 
-        CENTRIFUGE_RECIPES.recipeBuilder().duration(200).EUt(VA[MV])
-                .input(dust, IridiumMetalResidue, 5)
-                .output(dust, IridiumChloride, 4)
-                .output(dust, PlatinumSludgeResidue)
-                .buildAndRegister();
-
         CHEMICAL_RECIPES.recipeBuilder().duration(100).EUt(VA[LV])
                 .input(dust, IridiumChloride, 4)
                 .fluidInputs(Hydrogen.getFluid(3000))
