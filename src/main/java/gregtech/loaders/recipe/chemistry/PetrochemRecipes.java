@@ -298,38 +298,6 @@ public class PetrochemRecipes {
                 .duration(120).EUt(VA[MV]).buildAndRegister();
 
         DISTILLATION_RECIPES.recipeBuilder()
-                .fluidInputs(LightlySteamCrackedNaphtha.getFluid(1000))
-                .chancedOutput(dust, Carbon, 1111, 0)
-                .fluidOutputs(HeavyFuel.getFluid(75))
-                .fluidOutputs(LightFuel.getFluid(150))
-                .fluidOutputs(Toluene.getFluid(40))
-                .fluidOutputs(Benzene.getFluid(150))
-                .fluidOutputs(Butene.getFluid(80))
-                .fluidOutputs(Butadiene.getFluid(150))
-                .fluidOutputs(Propane.getFluid(15))
-                .fluidOutputs(Propene.getFluid(200))
-                .fluidOutputs(Ethane.getFluid(35))
-                .fluidOutputs(Ethylene.getFluid(200))
-                .fluidOutputs(Methane.getFluid(200))
-                .duration(120).EUt(VA[MV]).buildAndRegister();
-
-        DISTILLATION_RECIPES.recipeBuilder()
-                .fluidInputs(SeverelySteamCrackedNaphtha.getFluid(1000))
-                .chancedOutput(dust, Carbon, 3333, 0)
-                .fluidOutputs(HeavyFuel.getFluid(25))
-                .fluidOutputs(LightFuel.getFluid(50))
-                .fluidOutputs(Toluene.getFluid(20))
-                .fluidOutputs(Benzene.getFluid(100))
-                .fluidOutputs(Butene.getFluid(50))
-                .fluidOutputs(Butadiene.getFluid(50))
-                .fluidOutputs(Propane.getFluid(15))
-                .fluidOutputs(Propene.getFluid(300))
-                .fluidOutputs(Ethane.getFluid(65))
-                .fluidOutputs(Ethylene.getFluid(500))
-                .fluidOutputs(Methane.getFluid(500))
-                .duration(120).EUt(VA[MV]).buildAndRegister();
-
-        DISTILLATION_RECIPES.recipeBuilder()
                 .fluidInputs(LightlyHydroCrackedGas.getFluid(1000))
                 .fluidOutputs(Methane.getFluid(1400))
                 .fluidOutputs(Hydrogen.getFluid(1340))
